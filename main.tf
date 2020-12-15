@@ -41,7 +41,6 @@ resource "aws_instance" "ec2b" {
   subnet_id = aws_subnet.internal-eu-west-2b.id
 }
 
-
 resource "aws_instance" "ec2c" {
   ami           = "ami-01a6e31ac994bbc09"
   instance_type = "t2.micro"
